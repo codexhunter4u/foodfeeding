@@ -1,0 +1,64 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<link href="css/custom.css" rel="stylesheet" id="bootstrap-css">
+<script src="js/jquery.blockUI.js"></script>
+<title>Farm Game</title>
+<input type="hidden" name='animalsData' id='animalsData'/>
+<div class="container register">
+    <div class="row">
+        <div class="col-md-3 register-left">
+            <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+            <h3>Welcome</h3>
+            <p>You have <span class="counter">50</span> turns availble to complete this game!</p>
+            <input type="button" name="startGame" class="startGame" value="Start"/><br/>
+        </div>
+        <div class="col-md-9 register-right">
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row farmer-form">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <img src="images/farmer-not-feed.jpg" data-farmer="1" name="farmer" id="farmer" class="img-thumbnail afterResetFarmerImage blur" alt="Cinque Terre">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <img src="images/bunny-not-feed.jpg" data-bunny_1="1" name="bunny_1" id="bunny_1" class="img-thumbnail afterResetBunnyImage blur" alt="Cinque Terre">
+                            </div>
+                            </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <img src="images/bunny-not-feed.jpg" data-bunny_2="1" name="bunny_2" id="bunny_2" class="img-thumbnail afterResetBunnyImage blur" alt="Cinque Terre">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row cow-form">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <img src="images/cow-not-feed.jpg" data-cow_1="1" name="cow_1" id="cow_1" class="img-thumbnail afterResetCowImage blur" alt="Cinque Terre">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <img src="images/cow-not-feed.jpg" data-cow_2="1" name="cow_2" id="cow_2" class="img-thumbnail afterResetCowImage blur" alt="Cinque Terre">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <img src="images/cow-not-feed.jpg" data-cow_3="1" name="cow_3" id="cow_3" class="img-thumbnail afterResetCowImage blur" alt="Cinque Terre"> 
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <img src="images/cow-not-feed.jpg" data-cow_4="1" name="cow_4" id="cow_4" class="img-thumbnail afterResetCowImage blur" alt="Cinque Terre">
+                            </div>
+                            <input type="button" class="btnFeed InActive" name='btnFeed' value="Feed Me" disabled/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
